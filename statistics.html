@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Statistics</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+
+        <style>
+
+.bar {
+    fill: #4472c4;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+.x path {
+    display: none;
+}
+
+div.tooltip1 {   
+    position: absolute;
+    text-align: center;
+    width: 140px;
+    height: 48px;
+    line-height: 20px !important;
+    padding: 6px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;     
+    font-weight: bolder;      
+}
+
+div.tooltip {   
+    position: absolute;
+    text-align: center;
+    width: 140px;
+    height: 48px;
+    line-height: 20px !important;
+    padding: 6px;
+    font: 12px sans-serif;
+    background: #ffc04d;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;     
+    font-weight: bolder;      
+}
+
+
+
+
+</style>
+
+
+
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg text-uppercase" id="mainNav">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html" style="color:#2c3e50;">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="statistics.html" style="color:#2c3e50;"><b><u>Statistics</u></b></a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html" style="color:#2c3e50;">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <br/><br/>
+        <header class="masthead text-center" style="padding-top: 0%;
+    padding-bottom: 0%;">
+            <div class="container d-flex align-items-center flex-column">
+            </div>
+            <br/><br/>
+            <div class="col-lg-12 ml-auto visual-1">
+                
+                    <h1>Car Accidents by State</h1>
+                <!-- Car Accidents by State graph will load here -->
+                    <br/>
+                    <p class="lead" style="font-size: 25px;
+    text-align: justify;
+    font-family: inherit;
+    line-height: 45px;
+    font-weight: 500;padding-left: 10%;
+    padding-right: 10%;">
+                    This map shows the total number of accidents for different states of the United States in the year 2019. The view is filtered by severity range of values from1-4, where 1 is a minor injury accident, and 4 is a serious injury accident. In general, the CA state had the maximum number of accidents (i-e: 213,307). Therefore, applying more strict traffic regulations, along with public awareness, could reduce this number. .</p>
+
+                <div class='tableauPlaceholder' id='viz1588283286427' style='position: relative; margin-left: 17% !important;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;State_Wise&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='State_Wise&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;State_Wise&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1588283286427');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <br/>
+
+            </div>
+            <div class="col-lg-12 ml-auto visual-2" style="background-color: #80808038;padding: 3%;">
+                
+                    <h1>Car Accidents by Traffic Signal</h1>
+                <!-- Car Accidents by Traffic Signal graph will load here -->
+                 
+                <br/>
+                <p class="lead" style="font-size: 25px;
+    text-align: justify;
+    font-family: inherit;
+    line-height: 45px;
+    font-weight: 500;padding-left: 10%;
+    padding-right: 10%;">The donut chart shows the percentage of accidents per traffic signal location. As shown below, 84% of accidents happened where there was no traffic signal near the accident scene. On the other hand, only 16% of accidents happened near traffic signals. That proves the high importance of traffic signals to decrease car accidents. Also, more traffic signals should be added for safety precautions. </p>
+
+            </div>
+             <div class="col-lg-12 ml-auto visual-3" style="padding: 3%;">
+                
+                <h1>Car Accidents by Month</h1>
+                <br/>
+                <!-- Car Accidents by Month graph will load here -->
+                 <p class="lead" style="font-size: 25px;
+    text-align: justify;
+    font-family: inherit;
+    line-height: 45px;
+    font-weight: 500;padding-left: 10%;
+    padding-right: 10%;">The line chart illustrates the total number of accidents with monthly wise (i-e: from January to December). The plot is filtered by States, to provide the rate of car accidents per State. Therefore, the US department of transportation can make traffic laws and regulations for fatal accidents’ months for each State. Generally speaking, October was the deadly month over all the United States with the highest number of accidents. Probably because of the weather as October is the second month in fall/autumn seasons where everyone likes to go out and enjoy their time.</p>
+
+        <div class='tableauPlaceholder' id='viz1588283303793' style='position: relative; margin-left: 17% !important;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mo&#47;Month_Wise&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Month_Wise&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mo&#47;Month_Wise&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1588283303793');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br/>
+            </div>
+            <div class="col-lg-12 ml-auto visual-4" style="background-color: #80808038; padding: 3%;">
+                
+                <h1>Car Accidents by Weather Condition</h1>
+                <!-- Car Accidents by Weather Condition graph will load here -->
+                <br/>
+                <p class="lead" style="font-size: 25px;
+    text-align: justify;
+    font-family: inherit;
+    line-height: 45px;
+    font-weight: 500;padding-left: 10%;
+    padding-right: 10%;">The horizontal bar chart below demonstrates the total number of accidents per the top 10 categories of weather conditions. The chart shows that maximum accidents (i-e: 327,063) happened during the fair-weather condition, where everyone goes out to enjoy the day. However, minimum accidents (i-e: 12,108) happened in the fog weather conditions. We can conclude that people get more reckless with fair, sunny days, and on the contrary, they get more careful and attentive during bad weather days. Hence, it is recommended that different specific traffic actions should be made for sunny days.</p>
+            </div>
+        </header>
+  
+        <!-- Copyright Section-->
+        <section class="py-4 text-center">
+            <div class="container" style="color:#2c3e50;"><small>Copyright © Asma 2020</small></div>
+        </section>
+
+        <!-- Core theme JS-->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="index.js"></script>
+
+
+    </body>
+</html>
